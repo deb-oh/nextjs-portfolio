@@ -12,8 +12,15 @@ const device = {
 
 const theme = {
   colors: {
-    colorName1: "#aabbcc",
-    colorName2: "hsla(50, 60%, 70%, 0.5)",
+    accent: "#93d7f4",
+    gray: "#929292",
+    darkGray: "#555",
+  },
+  fontSizes: {
+    title: "4rem",
+    subTitle: "2rem",
+    normal: "1.6rem",
+    description: "1.4rem",
   },
   device,
 };

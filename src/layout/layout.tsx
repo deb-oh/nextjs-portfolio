@@ -1,6 +1,6 @@
 "use client";
 
-import Content from "@/components/Content";
+import ContentLayout from "@/components/content/layout";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import styled from "styled-components";
@@ -19,7 +19,7 @@ export default function MainLayout({
   return (
     <StyledAppLayout>
       <Header />
-      <Content>{children}</Content>
+      <ContentLayout>{children}</ContentLayout>
       <Footer />
     </StyledAppLayout>
   );
